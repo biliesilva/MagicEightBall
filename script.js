@@ -35,3 +35,29 @@ let eightBall = '';
  } 
 
 console.log(`The eight ball answered: ${eightBall}`); 
+
+
+// Race Day Register
+
+let raceNumber = Math.floor(Math.random() * 1000);
+
+const runnerRegisterEarly = true;
+
+let runnerAge = 18;
+
+if (runnerAge > 18 && runnerRegisterEarly === true) {
+ raceNumber >= 1000;
+} 
+
+if (runnerAge > 18 && runnerRegisterEarly === true) {
+ console.log(`The Runner ${raceNumber} will run at 9h30.`);
+} 
+else if (runnerAge >= 18 && runnerRegisterEarly === false) {
+  console.log(`The Runner ${raceNumber} will run at 11h00.`);
+}
+else if (runnerAge < 18) {
+  console.log(`The Runner ${raceNumber} will run at 12h30.`);
+}
+else {
+console.log(`The Runner ${raceNumber} see the registration desk.`);
+}
